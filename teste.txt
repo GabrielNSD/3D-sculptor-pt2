@@ -1,0 +1,54 @@
+DIM 200 200 200
+
+putvoxel 199 0 0 0 0 0 1
+putvoxel 0 199 0 255 0 0 1
+putvoxel 0 0 199 0 0 255 1
+
+PUTSPHERE 80 99 72 11 255 229 50 1
+putsphere 80 100 72 11 255 229 50 1
+putsphere 80 101 72 11 255 229 50 1
+cutsphere 80 99 77 8
+cutsphere 80 100 77 8
+cutsphere 80 101 77 8
+cutsphere 80 102 77 8
+
+putsphere 120 100 72 11 255 229 50 1
+cutsphere 120 100 77 8
+
+putsphere 77 100 72 8 255 229 50 1
+putsphere 77 99 72 8 255 229 50 1
+putsphere 77 101 72 8 255 229 50 1
+cutsphere 77 100 72 5
+cutsphere 77 98 72 5
+cutsphere 77 99 72 5
+cutsphere 77 101 72 5
+cutsphere 77 102 72 5
+
+
+putsphere 123 100 72 8 255 229 50 1
+putsphere 123 99 72 8 255 229 50 1
+putsphere 123 101 72 8 255 229 50 1
+cutsphere 123 100 72 5
+cutsphere 123 98 72 5
+cutsphere 123 99 72 5
+cutsphere 123 101 72 5
+cutsphere 123 102 72 5
+
+cutbox 0 199 0 98 0 100
+cutbox 0 199 102 199 0 100
+
+putEllipsoid 100 100 20 16 16 45 40 90 255 0.5
+cutbox 86 115 86 115 20 60
+putEllipsoid 100 100 20 15 15 45 255 229 50 1
+
+
+putSphere 100 100 80 25 255 229 50 1
+cutbox 75 126 75 126 80 106
+cutSphere 100 100 80 21
+cutbox 0 199 0 199 0 20
+
+putEllipsoid 100 75 75 3 3 4 255 54 54 0.5
+putEllipsoid 100 125 75 3 3 4 255 54 54 0.5
+
+putbox 70 130 70 130 0 20 0 0 0 1
+putbox 90 110 130 132 5 15 255 255 0 1
